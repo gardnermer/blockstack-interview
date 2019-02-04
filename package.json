@@ -1,0 +1,21 @@
+{
+  "name": "blockstack-interview",
+  "version": "1.0.0",
+  "description": "E2E Test",
+  "main": "test/test.js",
+  "dependencies": {
+    "blockstack": "^18.2.1",
+    "webdriverio": "^5.4.13"
+  },
+  "scripts": {
+    "test": "SELENIUM_BROWSER=chrome mocha -t 10000 test/test.js"
+  },
+  "author": "Red Gardner",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^2.45.0",
+    "mocha": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
